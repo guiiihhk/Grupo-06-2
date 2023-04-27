@@ -1,0 +1,96 @@
+
+header {
+    display: flex; 
+    background-color: #4268e4;
+    border-radius: 8px;
+    color:  #d1b307;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cabeçalho {
+    background-color: #4268e4;
+    color: #d1b307;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cabecalho-imagem{
+    border: 4px solid #d1b307;
+    border-radius: 5000px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabeçalho-lista-item {
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+
+#corpo {
+    background-color:  #42a9e4;
+    border-radius: 8px;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos {
+    width: 120px;
+}
+
+.alunos {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.corpo-div-conteudo {
+    width: 35%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.8;
+}
+
+#quem-somos {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    background: #181818;
+}
+
+.quem-somos-titulo a {
+    text-align: center;
+}
+
+.alunos-div {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.alunos-todos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.alunos-fotos {
+    width: 120px;
+    padding: 0px 0px 20px 0px;
+}
+
+.roda-pé {
+    background-color: black;
+    justify-content: center;
+    ;
+}
+
+.nome-aluno {
+    padding: 0px 0px 20px 0px;
+}
