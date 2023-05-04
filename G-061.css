@@ -1,9 +1,9 @@
-
+﻿
 header {
     display: flex; 
     background-color: #4268e4;
     border-radius: 8px;
-    color:  #d1b307;
+    color:   #ffffff;
     justify-content: space-around;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
@@ -11,7 +11,7 @@ header {
 
 .cabeçalho {
     background-color: #4268e4;
-    color: #d1b307;
+    color:  #ffffff;
     display: flex;
     justify-content: space-around;
     padding: 15px 0;
@@ -42,15 +42,10 @@ header {
     align-items: center;
 }
 
-.fotos {
-    width: 120px;
-}
-
 .alunos {
     text-align: center;
     padding: 50px 0;
 }
-
 
 .corpo-div-conteudo {
     width: 35%;
@@ -63,11 +58,13 @@ header {
     color: white;
     text-align: center;
     padding: 25px 0;
-    background: #181818;
+    background: #2957ec;
+    border-radius: 8px;
 }
 
 .quem-somos-titulo a {
     text-align: center;
+    color:  rgb(0, 0, 0);
 }
 
 .alunos-div {
@@ -77,7 +74,7 @@ header {
 
 .alunos-todos {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .alunos-fotos {
@@ -86,11 +83,88 @@ header {
 }
 
 .roda-pé {
-    background-color: black;
+    background-color: #d1b307;
     justify-content: center;
     ;
 }
 
 .nome-aluno {
     padding: 0px 0px 20px 0px;
+    color:  rgb(0, 0, 0);
+}
+
+.roda-pé-imagem {
+    width: 40px;
+    border-radius: 50%;
+    padding: 0px 30px;
+}
+
+.roda-pé-texto {
+    margin: 10px 0px 5px 0px;
+    color:  rgb(0, 0, 0);
+}
+
+li {
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color:  #d1b307;
+}
+
+li.dropdown {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffd901;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.fim {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 2.5;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
 }
